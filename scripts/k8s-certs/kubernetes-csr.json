@@ -1,0 +1,28 @@
+{
+  "CN": "kubernetes",
+  "hosts": [
+    "kubernetes.default",
+    "kubernetes.default.svc.cluster.local",
+    "kube.example.com",
+    "m1.kube.example.com",
+    "m2.kube.example.com",
+    "m3.kube.example.com",
+    "s1.kube.example.com",
+    "s2.kube.example.com",
+    "s3.kube.example.com",
+    "127.0.0.1"
+  ],
+  "key": {
+    "algo": "ecdsa",
+    "size": 256
+  },
+  "names": [
+    {
+      "C": "Country",
+      "L": "City",
+      "O": "Organization",
+      "OU": "Cluster",
+      "ST": "Local"
+    }
+  ]
+}
